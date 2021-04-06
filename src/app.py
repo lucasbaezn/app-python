@@ -23,6 +23,8 @@ def create():
     db.session.commit()
     return redirect(url_for('home'))
 
+    
+
 @app.route('/done/<id>')
 def done(id):
     task = Task.query.filter_by(id=int(id)).first()
