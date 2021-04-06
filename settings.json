@@ -1,0 +1,12 @@
+{
+    "python.linting.pylintEnabled": false,
+    "python.analysis.disabled": ["unresolved-import", "use-before-def", "undefined-variable"],
+    "files.exclude": {
+        "**/*.python-version": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/*.pyc": true,
+        "**/__pycache__": true
+    },
+    "python.pythonPath": "<VIRTUALENV_PYTHON_PATH_HERE>"
+}
